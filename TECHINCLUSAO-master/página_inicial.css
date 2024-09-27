@@ -1,0 +1,188 @@
+
+.cabecalho{
+    background-color: rgb(7, 11, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    text-shadow: 7px 6px 7px rgb(5, 11, 94);
+    padding: 10px;
+    font-size: 51px;
+    font-weight: 550;
+}   
+
+h1{
+    color: white;
+    transition: 1s;
+}
+
+h6{
+    color: rgb(240, 202, 10);
+    font-size: 20px;
+}
+
+.inferior{
+    background-color: rgb(240, 202, 10);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 5px 10px 30px rgb(59, 39, 1);
+}
+
+.cblh_button{
+    height: 30px;
+    color: rgb(251, 251, 251);
+    background-color: rgb(240, 202, 10);
+    border: 0px solid rgb(240, 202, 10);
+    border-radius: 20px;
+    font-weight: 550;
+    font-size: 20px;
+
+}
+
+.cblh_button:hover{
+    background-color: white;
+    color: rgb(240, 202, 10);
+    transition: 1s;
+}
+
+.quadros{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.img_quadro{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 3px;
+    background-color:rgb(164, 119, 34);
+    margin: 10px;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    width: 270px;
+    height: 390px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(214, 159, 56);
+    box-shadow: 2px 5px 30px rgb(164, 119, 34);
+    text-shadow: 2px 2px 1px rgb(164, 119, 34);
+    font-size: 30px;
+    transition:0.5s;
+}
+
+.quadro:hover{
+    transform: scale(1.02);
+}
+
+.nomes{
+    background-color
+}
+
+.button_quadros{
+    background-color: orange;
+    border: 2px solid rgb(240, 200, 130);
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+    padding: 8px;
+    position:relative;
+    top:25%;
+}
+
+.button_quadros:hover{
+    transform: scale(1.07);
+    background-color: white;
+    color: orange;
+}
+
+.text{
+font-size: 25px;
+}
+
+.introdução{
+    font-size: 30px;
+    font-weight: 550;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 2px 5px 30px rgb(164, 119, 34);
+    text-shadow: 2px 2px 1px rgb(164, 119, 34);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introdução2{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 2px 5px 30px rgb(164, 119, 34);
+    text-shadow: 2px 2px 1px rgb(164, 119, 34);
+}
+
+.rodape{
+
+}
+
+@media (max-width: 768px){
+    .cabecalho{
+        width: 395px;
+        height: 70px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h6{
+        font-size: 15px;
+    }
+    
+    .introdução{
+        font-size: 15px;
+        width: 280px;
+        height: 23px;
+    }
+
+    .introdução2{
+        font-size: 15px;
+    }
+     
+    .text{
+        font-size: 13px;
+    }
+
+    .quadros{
+        height: 1150px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .quadro{
+        height: 320px;
+        width: 220px;
+    }
+}

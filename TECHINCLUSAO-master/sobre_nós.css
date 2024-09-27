@@ -1,0 +1,93 @@
+.cabecalho{
+    background-color: rgb(7, 11, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    text-shadow: 7px 6px 7px rgb(5, 11, 94);
+    padding: 10px;
+    font-size: 51px;
+    font-weight: 550;
+}   
+
+h1{
+    color: white;
+    transition: 1s;
+}
+
+.inferior{
+    background-color: rgb(240, 202, 10);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 5px 10px 30px rgb(59, 39, 1);
+}
+
+.cblh_button{
+    height: 30px;
+    color: rgb(251, 251, 251);
+    background-color: rgb(240, 202, 10);
+    border: 0px solid rgb(240, 202, 10);
+    border-radius: 20px;
+    font-weight: 550;
+    font-size: 20px;
+
+}
+
+.cblh_button:hover{
+    background-color: white;
+    color: rgb(240, 202, 10);
+    transition: 0.5s;
+}
+
+h6{
+    color: rgb(240, 202, 10);
+    font-size: 20px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+.título{
+    display: flex;
+    justify-content: center;
+}
+
+.textos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 400px;
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    
+    .cabecalho{
+        width: 395px;
+        height: 70px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h6{
+        font-size: 15px;
+    }
+    
+    .textos1{
+        font-size: 10px;
+        height: 300px;
+        display: flex;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
