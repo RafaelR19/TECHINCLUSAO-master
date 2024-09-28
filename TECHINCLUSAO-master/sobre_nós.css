@@ -1,35 +1,53 @@
+body{
+    background-color: rgb(238, 236, 236);
+}
+
 .cabecalho{
-    background-color: rgb(7, 11, 120);
+    background-color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 90px;
-    text-shadow: 7px 6px 7px rgb(5, 11, 94);
+    flex-direction: row;
+    align-items: flex-start;
+    height: 45px;
+    width:1237px;
     padding: 10px;
-    font-size: 51px;
+    font-size: 30px;
     font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
 }   
 
+.tocantins{
+    height: 20px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 220);
+    padding: 1px;
+}
+
 h1{
-    color: white;
+    color: rgb(7, 11, 120);
     transition: 1s;
 }
 
+h6{
+    color: rgb(7, 11, 120);
+    font-size: 17px;
+}
+
 .inferior{
-    background-color: rgb(240, 202, 10);
+    background-color: white;
     width: 100%;
-    height: 30px;
+    height: px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    box-shadow: 5px 10px 30px rgb(59, 39, 1);
+    box-shadow: 2px 5px 5px rgb(159, 158, 158);
 }
 
 .cblh_button{
     height: 30px;
-    color: rgb(251, 251, 251);
-    background-color: rgb(240, 202, 10);
-    border: 0px solid rgb(240, 202, 10);
+    color: rgb(7, 11, 120);
+    background-color: white;
+    border: 0px solid white;    
     border-radius: 20px;
     font-weight: 550;
     font-size: 20px;
@@ -37,14 +55,9 @@ h1{
 }
 
 .cblh_button:hover{
-    background-color: white;
-    color: rgb(240, 202, 10);
-    transition: 0.5s;
-}
-
-h6{
-    color: rgb(240, 202, 10);
-    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    transition: 1s;
 }
 
 h2{
