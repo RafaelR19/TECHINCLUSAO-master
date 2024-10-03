@@ -1,3 +1,7 @@
+/*cores:
+azul:rgb(7, 11, 120);
+*/
+
 body{
     background-color: rgb(238, 236, 236);
 }
@@ -114,7 +118,7 @@ h6{
 .button_quadros:hover{
     transform: scale(1.07);
     background-color: white;
-    color: orange;
+    color: rgb(7, 11, 120);
 }
 
 .text{
@@ -148,10 +152,6 @@ font-size: 25px;
     border-radius: 50px;
     padding: 10px;
     box-shadow: 2px 5px 30px rgb(7, 11, 120);
-}
-
-.rodape{
-
 }
 
 @media (max-width: 768px){

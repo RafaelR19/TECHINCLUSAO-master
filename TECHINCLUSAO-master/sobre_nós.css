@@ -64,20 +64,19 @@ h2{
     font-size: 45px;
 }
 
-.título{
-    display: flex;
-    justify-content: center;
-}
-
 .textos1{
+    background-color: rgb(7, 11, 120);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     height: 400px;
     font-size: 25px;
-    margin: 10px;
+    margin: 30px;
+    margin-top: 50px;
     padding: 20px;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px){
